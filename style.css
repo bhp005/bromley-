@@ -29,11 +29,11 @@
 .banner-text p {
   font-size: 20px;
   font-style: italic;
-  width: 600px;
   text-align: center;
   margin: auto;
   position: relative;
   display: inline-block;
+  width: 60%;
 }
 .banner-btn {
   margin: 70px auto 0;
@@ -106,6 +106,9 @@ nav ul li a {
 @media screen and (max-width: 770px) {
   .banner-text h1 {
     font-size: 44px;
+  }
+  .banner-text p {
+    font-size: 18px;
   }
   .banner-btn a {
     display: block;
@@ -304,7 +307,7 @@ hr {
 }
 
 .testimonial-row {
-  width: 80%;
+  width: 0.8;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -362,7 +365,7 @@ hr {
   position: relative;
 }
 .footer-row {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -371,7 +374,7 @@ hr {
 .footer-left,
 .footer-right {
   flex-basis: 45%;
-  padding: 10px;
+  padding: 8px;
   margin-bottom: 20px;
 }
 
@@ -395,10 +398,10 @@ hr {
 }
 .footer-img {
   max-width: 370px;
-  opacity: .8;
+  opacity: 0.8;
   position: absolute;
   left: 50%;
-  top: 35%;
+  top: 40%;
   transform: translate(-50%, -50%);
 }
 .social-links {
@@ -432,6 +435,6 @@ hr {
   }
 
   .footer-img {
-    top: 25%;
+    top: 30%;
   }
 }
